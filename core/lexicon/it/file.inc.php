@@ -6,10 +6,13 @@
  * @package modx
  * @subpackage lexicon
  */
+$_lang['directory'] = 'Directory';
 $_lang['file_confirm_remove'] = 'Sei sicuro di voler rimuovere questo file? Il sito potrebbe danneggiarsi.';
+$_lang['file_create'] = 'Creare File';
 $_lang['file_deleted'] = '<span style="color:#009900">Successo!</span>';
 $_lang['file_delete_file'] = 'Elimina file';
 $_lang['file_delete_folder'] = 'Elimina cartella';
+$_lang['file_download'] = 'Scarica File';
 $_lang['file_download_file'] = 'Scarica file';
 $_lang['file_download_unzip'] = 'Decomprimi file';
 $_lang['file_edit'] = 'Modifica file';
@@ -23,8 +26,8 @@ $_lang['file_err_ns'] = 'Specifica un file valido.';
 $_lang['file_err_open'] = 'Non è possibile aprire il file: ';
 $_lang['file_err_perms_rename'] = 'Il webserver non ha sufficienti privilegi per rinominare il file.';
 $_lang['file_err_perms_remove'] = 'Il webserver non ha sufficienti privilegi per rimuovere il file.';
-$_lang['file_err_rename'] = 'MODx non è riuscito a rinominare il file. Assicurati che i permessi siano settati correttamente.';
-$_lang['file_err_remove'] = 'MODx non è riuscito a cancellare il file. Assicurati che i permessi siano settati correttamente.';
+$_lang['file_err_rename'] = 'MODX non è riuscito a rinominare il file. Assicurati che i permessi siano settati correttamente.';
+$_lang['file_err_remove'] = 'MODX non è riuscito a cancellare il file. Assicurati che i permessi siano settati correttamente.';
 $_lang['file_err_save'] = 'Non posso salvare il file, assicurati che la directory di destinazione sia scrivibile!';
 $_lang['file_err_too_large'] = 'Il file caricato è troppo grande: [[+size]] bytes. Assicurati che risultino meno di [[+allowed]] bytes.';
 $_lang['file_err_unzip'] = 'Decompressione fallita!';
@@ -40,7 +43,7 @@ $_lang['file_folder_create_here'] = 'Crea directory qui';
 $_lang['file_folder_created'] = 'Cartella creata con successo!';
 $_lang['file_folder_deleted'] = 'Cartella eliminata con successo!';
 $_lang['file_folder_err_ae'] = 'Un questa sede esiste già una directory con questo nome.';
-$_lang['file_folder_err_chmod'] = 'Impossibile modificare permessi, devono essere modificati fuori da MODx.';
+$_lang['file_folder_err_chmod'] = 'Impossibile modificare permessi, devono essere modificati fuori da MODX.';
 $_lang['file_folder_err_create'] = 'Si è verificato un errore sconosciuto cercando di creare la directory.';
 $_lang['file_folder_err_invalid'] = 'La directory specificata non è una directory.';
 $_lang['file_folder_err_invalid_path'] = 'Percorso non valido per creare una cartella.';
@@ -60,6 +63,8 @@ $_lang['file_folder_remove_confirm'] = 'Sei sicuro di voler rimuovere questa dir
 $_lang['file_last_accessed'] = 'Ultimo accesso';
 $_lang['file_last_modified'] = 'Ultima modifica';
 $_lang['file_name'] = 'Nome del file';
+$_lang['file_quick_create'] = 'Creazione rapida file';
+$_lang['file_quick_update'] = 'Modifica rapida file';
 $_lang['file_remove'] = 'Rimuovi file';
 $_lang['file_remove_confirm'] = 'Sei sicuro di voler rimuovere completamente questo file?';
 $_lang['file_saved'] = 'File aggiornato con successo!';
@@ -71,7 +76,7 @@ $_lang['file_view'] = 'Mostra file';
 $_lang['files_access_denied'] = 'Accesso negato!';
 $_lang['files_data'] = 'Dati';
 $_lang['files_directories'] = 'Directories';
-$_lang['files_dirwritable'] = 'Directory scrivibile?'; 
+$_lang['files_dirwritable'] = 'Directory scrivibile?';
 $_lang['files_dir_listing'] = 'Elenco directory per:';
 $_lang['files_editfile'] = 'Modifica file';
 $_lang['files_filename'] = 'NomeFile (Filename)';
@@ -107,4 +112,3 @@ $_lang['upf_upload_err'] = 'Errore di caricamento.';
 $_lang['upf_uploading'] = 'Sto caricando...';
 $_lang['upf_uploading_desc'] = 'Caricati completamente {0} di {1} files.';
 $_lang['upload_files'] = 'Carica files';
-
